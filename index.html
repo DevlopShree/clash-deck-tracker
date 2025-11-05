@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Clash Royale Enemy Deck Tracker</title>
+   <script src="https://cdn.tailwindcss.com"></script>
+   <style>
+      .card-slot {
+         transition: all 0.3s ease;
+      }
+
+      .card-slot.small {
+         min-height: 50px;
+      }
+
+      .evo-star {
+         position: absolute;
+         top: -5px;
+         right: -5px;
+         color: #ffd700;
+         font-size: 16px;
+         z-index: 10;
+      }
+
+      .dragging {
+         opacity: 0.5;
+      }
+
+      .drop-zone {
+         border: 2px dashed #4ade80;
+         background-color: rgba(74, 222, 128, 0.1);
+      }
+
+      .card-button {
+         touch-action: manipulation;
+      }
+   </style>
+</head>
+
+<body class="bg-gray-900 text-white min-h-screen">
+   <div class="container mx-auto p-2 max-w-md">
+      <!-- Header with Elixir Buttons, Undo, and Evo Star -->
+      <div class="mb-4">
+         <div class="flex gap-1 mb-3">
+            <button class="elixir-btn bg-purple-600 hover:bg-purple-700 px-2 py-2 rounded text-sm font-bold flex-1"
+               data-elixir="0">0</button>
+            <button class="elixir-btn bg-purple-600 hover:bg-purple-700 px-2 py-2 rounded text-sm font-bold flex-1"
+               data-elixir="1">1</button>
+            <button class="elixir-btn bg-purple-600 hover:bg-purple-700 px-2 py-2 rounded text-sm font-bold flex-1"
+               data-elixir="2">2</button>
+            <button class="elixir-btn bg-purple-600 hover:bg-purple-700 px-2 py-2 rounded text-sm font-bold flex-1"
+               data-elixir="3">3</button>
+            <button class="elixir-btn bg-purple-600 hover:bg-purple-700 px-2 py-2 rounded text-sm font-bold flex-1"
+               data-elixir="4">4</button>
+            <button class="elixir-btn bg-purple-600 hover:bg-purple-700 px-2 py-2 rounded text-sm font-bold flex-1"
+               data-elixir="5">5</button>
+            <button class="elixir-btn bg-purple-600 hover:bg-purple-700 px-2 py-2 rounded text-sm font-bold flex-1"
+               data-elixir="6">6</button>
+            <button class="elixir-btn bg-purple-600 hover:bg-purple-700 px-2 py-2 rounded text-sm font-bold flex-1"
+               data-elixir="7">7</button>
+            <button class="elixir-btn bg-purple-600 hover:bg-purple-700 px-2 py-2 rounded text-sm font-bold flex-1"
+               data-elixir="8">8</button>
+            <button class="elixir-btn bg-purple-600 hover:bg-purple-700 px-2 py-2 rounded text-sm font-bold flex-1"
+               data-elixir="9">9</button>
+            <button id="undoBtn" class="bg-red-600 hover:bg-red-700 px-3 py-2 rounded font-bold text-sm">Undo</button>
+            <div id="evoStar" class="cursor-move bg-yellow-500 text-black px-2 py-2 rounded text-sm font-bold"
+               draggable="true">⭐</div>
+         </div>
+      </div>
+
+      <!-- Card Selection Area -->
+      <div id="cardSelection" class="hidden mb-4">
+         <!-- <h3 class="text-md font-bold mb-2">Select Card:</h3> -->
+         <div id="cardList" class="grid grid-cols-2 gap-2 max-h-60 overflow-y-auto">
+            <!-- Cards will be populated here -->
+         </div>
+      </div>
+
+      <!-- Enemy Deck Queue -->
+      <div class="mb-4">
+         <h2 class="text-lg font-bold mb-2">Enemy Deck</h2>
+         <!-- First 4 cards (smaller, in one line) -->
+         <div class="grid grid-cols-4 gap-1 mb-2">
+            <div class="card-slot small bg-gray-800 border border-gray-600 rounded p-1 text-center text-xs relative"
+               data-position="0">
+               <span class="text-gray-400">Unknown</span>
+            </div>
+            <div class="card-slot small bg-gray-800 border border-gray-600 rounded p-1 text-center text-xs relative"
+               data-position="1">
+               <span class="text-gray-400">Unknown</span>
+            </div>
+            <div class="card-slot small bg-gray-800 border border-gray-600 rounded p-1 text-center text-xs relative"
+               data-position="2">
+               <span class="text-gray-400">Unknown</span>
+            </div>
+            <div class="card-slot small bg-gray-800 border border-gray-600 rounded p-1 text-center text-xs relative"
+               data-position="3">
+               <span class="text-gray-400">Unknown</span>
+            </div>
+         </div>
+         <!-- Last 4 cards (smaller) -->
+         <div class="grid grid-cols-4 gap-1">
+            <div class="card-slot small bg-gray-800 border border-gray-600 rounded p-1 text-center text-xs relative"
+               data-position="4">
+               <span class="text-gray-400">Unknown</span>
+            </div>
+            <div class="card-slot small bg-gray-800 border border-gray-600 rounded p-1 text-center text-xs relative"
+               data-position="5">
+               <span class="text-gray-400">Unknown</span>
+            </div>
+            <div class="card-slot small bg-gray-800 border border-gray-600 rounded p-1 text-center text-xs relative"
+               data-position="6">
+               <span class="text-gray-400">Unknown</span>
+            </div>
+            <div class="card-slot small bg-gray-800 border border-gray-600 rounded p-1 text-center text-xs relative"
+               data-position="7">
+               <span class="text-gray-400">Unknown</span>
+            </div>
+         </div>
+      </div>
+   </div>
+
+   <script src="script.js"></script>
+</body>
+
+</html>
