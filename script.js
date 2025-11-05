@@ -328,7 +328,7 @@ class DeckTracker {
     findBestCardMatch(spokenName) {
         const spoken = spokenName.toLowerCase().trim();
 
-        // First, try exact match
+        // First, try exact match with card names
         for (const elixirCost in this.cards) {
             for (const card of this.cards[elixirCost]) {
                 if (card.name.toLowerCase() === spoken) {
@@ -337,11 +337,37 @@ class DeckTracker {
             }
         }
 
-        // Then try partial match (contains)
+        // Second, try exact match with alternatives
+        for (const elixirCost in this.cards) {
+            for (const card of this.cards[elixirCost]) {
+                if (card.alternatives) {
+                    for (const alt of card.alternatives) {
+                        if (alt.toLowerCase() === spoken) {
+                            return card;
+                        }
+                    }
+                }
+            }
+        }
+
+        // Third, try partial match with card names
         for (const elixirCost in this.cards) {
             for (const card of this.cards[elixirCost]) {
                 if (card.name.toLowerCase().includes(spoken) || spoken.includes(card.name.toLowerCase())) {
                     return card;
+                }
+            }
+        }
+
+        // Fourth, try partial match with alternatives
+        for (const elixirCost in this.cards) {
+            for (const card of this.cards[elixirCost]) {
+                if (card.alternatives) {
+                    for (const alt of card.alternatives) {
+                        if (alt.toLowerCase().includes(spoken) || spoken.includes(alt.toLowerCase())) {
+                            return card;
+                        }
+                    }
                 }
             }
         }

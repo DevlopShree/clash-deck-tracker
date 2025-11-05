@@ -1,143 +1,642 @@
 {
   "1": [
-    {"name": "Skeletons", "type": "troop"},
-    {"name": "Ice Spirit", "type": "troop"},
-    {"name": "Fire Spirit", "type": "troop"},
-    {"name": "Electro Spirit", "type": "troop"},
-    {"name": "Heal Spirit", "type": "troop"}
+    {
+      "name": "Skeletons",
+      "type": "troop",
+      "alternatives": ["skeleton", "skelly", "bones", "skulls"]
+    },
+    {
+      "name": "Ice Spirit",
+      "type": "troop",
+      "alternatives": ["ice", "spirit", "freeze spirit"]
+    },
+    {
+      "name": "Fire Spirit",
+      "type": "troop",
+      "alternatives": ["fire", "flame spirit", "burn spirit"]
+    },
+    {
+      "name": "Electro Spirit",
+      "type": "troop",
+      "alternatives": [
+        "electro",
+        "electric spirit",
+        "zap spirit",
+        "shock spirit"
+      ]
+    },
+    {
+      "name": "Heal Spirit",
+      "type": "troop",
+      "alternatives": ["heal", "healing spirit", "health spirit"]
+    }
   ],
   "2": [
-    {"name": "Goblins", "type": "troop"},
-    {"name": "Bomber", "type": "troop"},
-    {"name": "Spear Goblins", "type": "troop"},
-    {"name": "Bats", "type": "troop"},
-    {"name": "Berserker", "type": "troop"},
-    {"name": "Ice Golem", "type": "troop"},
-    {"name": "Suspicious Bush", "type": "troop"},
-    {"name": "Wall Breakers", "type": "troop"},
-    {"name": "Zap", "type": "spell"},
-    {"name": "Giant Snowball", "type": "spell"},
-    {"name": "Rage", "type": "spell"},
-    {"name": "Barbarian Barrel", "type": "spell"},
-    {"name": "Goblin Curse", "type": "spell"},
-    {"name": "The Log", "type": "spell"}
+    {
+      "name": "Goblins",
+      "type": "troop",
+      "alternatives": ["goblin", "gobs", "green guys"]
+    },
+    {
+      "name": "Bomber",
+      "type": "troop",
+      "alternatives": ["bomb", "bomber guy", "explosive"]
+    },
+    {
+      "name": "Spear Goblins",
+      "type": "troop",
+      "alternatives": ["spear", "spear gobs", "spears", "javelin goblins"]
+    },
+    {
+      "name": "Bats",
+      "type": "troop",
+      "alternatives": ["bat", "flying bats", "wings"]
+    },
+    {
+      "name": "Berserker",
+      "type": "troop",
+      "alternatives": ["berserker", "rage guy", "angry man"]
+    },
+    {
+      "name": "Ice Golem",
+      "type": "troop",
+      "alternatives": ["ice", "golem", "frozen golem", "ice tank"]
+    },
+    {
+      "name": "Suspicious Bush",
+      "type": "troop",
+      "alternatives": ["bush", "suspicious", "hiding bush", "sneaky bush"]
+    },
+    {
+      "name": "Wall Breakers",
+      "type": "troop",
+      "alternatives": ["wall breaker", "breakers", "bombers", "wall bomb"]
+    },
+    {
+      "name": "Zap",
+      "type": "spell",
+      "alternatives": ["shock", "lightning", "electric", "stun"]
+    },
+    {
+      "name": "Giant Snowball",
+      "type": "spell",
+      "alternatives": ["snowball", "snow", "giant snow", "ice ball"]
+    },
+    {
+      "name": "Rage",
+      "type": "spell",
+      "alternatives": ["angry", "speed", "boost", "fast"]
+    },
+    {
+      "name": "Barbarian Barrel",
+      "type": "spell",
+      "alternatives": ["barb barrel", "barrel", "barbarian", "rolling barrel"]
+    },
+    {
+      "name": "Goblin Curse",
+      "type": "spell",
+      "alternatives": ["curse", "goblin", "hex", "magic curse"]
+    },
+    {
+      "name": "The Log",
+      "type": "spell",
+      "alternatives": ["log", "wood", "rolling log", "tree log"]
+    }
   ],
   "3": [
-    {"name": "Knight", "type": "troop"},
-    {"name": "Archers", "type": "troop"},
-    {"name": "Minions", "type": "troop"},
-    {"name": "Goblin Gang", "type": "troop"},
-    {"name": "Skeleton Barrel", "type": "troop"},
-    {"name": "Firecracker", "type": "troop"},
-    {"name": "Mega Minion", "type": "troop"},
-    {"name": "Dart Goblin", "type": "troop"},
-    {"name": "Elixir Golem", "type": "troop"},
-    {"name": "Skeleton Army", "type": "troop"},
-    {"name": "Guards", "type": "troop"},
-    {"name": "Ice Wizard", "type": "troop"},
-    {"name": "Princess", "type": "troop"},
-    {"name": "Miner", "type": "troop"},
-    {"name": "Bandit", "type": "troop"},
-    {"name": "Royal Ghost", "type": "troop"},
-    {"name": "Fisherman", "type": "troop"},
-    {"name": "Goblin Machine", "type": "troop"},
-    {"name": "Little Prince", "type": "troop"},
-    {"name": "Cannon", "type": "building"},
-    {"name": "Tombstone", "type": "building"},
-    {"name": "Arrows", "type": "spell"},
-    {"name": "Royal Delivery", "type": "spell"},
-    {"name": "Earthquake", "type": "spell"},
-    {"name": "Goblin Barrel", "type": "spell"},
-    {"name": "Tornado", "type": "spell"},
-    {"name": "Clone", "type": "spell"},
-    {"name": "Void", "type": "spell"},
-    {"name": "Vines", "type": "spell"}
+    {
+      "name": "Knight",
+      "type": "troop",
+      "alternatives": ["night", "armor guy", "sword guy", "tank"]
+    },
+    {
+      "name": "Archers",
+      "type": "troop",
+      "alternatives": ["archer", "bow", "arrows", "pink hair"]
+    },
+    {
+      "name": "Minions",
+      "type": "troop",
+      "alternatives": ["minion", "flying", "purple guys", "wings"]
+    },
+    {
+      "name": "Goblin Gang",
+      "type": "troop",
+      "alternatives": ["gang", "goblin", "gob gang", "green gang"]
+    },
+    {
+      "name": "Skeleton Barrel",
+      "type": "troop",
+      "alternatives": ["barrel", "skeleton", "skelly barrel", "bone barrel"]
+    },
+    {
+      "name": "Firecracker",
+      "type": "troop",
+      "alternatives": ["cracker", "fire", "explosive girl", "redhead"]
+    },
+    {
+      "name": "Mega Minion",
+      "type": "troop",
+      "alternatives": ["mega", "minion", "big minion", "fat minion"]
+    },
+    {
+      "name": "Dart Goblin",
+      "type": "troop",
+      "alternatives": ["dart", "goblin", "blow dart", "sniper goblin"]
+    },
+    {
+      "name": "Elixir Golem",
+      "type": "troop",
+      "alternatives": ["elixir", "golem", "purple golem", "pink golem"]
+    },
+    {
+      "name": "Skeleton Army",
+      "type": "troop",
+      "alternatives": ["army", "skeleton", "skelly army", "skarmy", "bones"]
+    },
+    {
+      "name": "Guards",
+      "type": "troop",
+      "alternatives": ["guard", "shield", "spear guards", "blue guys"]
+    },
+    {
+      "name": "Ice Wizard",
+      "type": "troop",
+      "alternatives": ["ice", "wizard", "freeze wizard", "blue wizard"]
+    },
+    {
+      "name": "Princess",
+      "type": "troop",
+      "alternatives": [
+        "princess",
+        "archer princess",
+        "tower princess",
+        "long range"
+      ]
+    },
+    {
+      "name": "Miner",
+      "type": "troop",
+      "alternatives": ["minor", "digger", "underground", "shovel guy"]
+    },
+    {
+      "name": "Bandit",
+      "type": "troop",
+      "alternatives": ["bandit", "dash", "charge", "purple girl"]
+    },
+    {
+      "name": "Royal Ghost",
+      "type": "troop",
+      "alternatives": ["ghost", "royal", "invisible", "spirit"]
+    },
+    {
+      "name": "Fisherman",
+      "type": "troop",
+      "alternatives": ["fisher", "hook", "anchor", "pull"]
+    },
+    {
+      "name": "Goblin Machine",
+      "type": "troop",
+      "alternatives": ["machine", "goblin", "drill", "contraption"]
+    },
+    {
+      "name": "Little Prince",
+      "type": "troop",
+      "alternatives": ["prince", "little", "small prince", "mini prince"]
+    },
+    {
+      "name": "Cannon",
+      "type": "building",
+      "alternatives": ["canon", "tower", "defense", "shoot"]
+    },
+    {
+      "name": "Tombstone",
+      "type": "building",
+      "alternatives": ["tomb", "grave", "skeleton spawner", "bones"]
+    },
+    {
+      "name": "Arrows",
+      "type": "spell",
+      "alternatives": ["arrow", "blue arrows", "projectiles"]
+    },
+    {
+      "name": "Royal Delivery",
+      "type": "spell",
+      "alternatives": ["delivery", "royal", "recruit drop", "parachute"]
+    },
+    {
+      "name": "Earthquake",
+      "type": "spell",
+      "alternatives": ["quake", "earth", "ground shake", "building damage"]
+    },
+    {
+      "name": "Goblin Barrel",
+      "type": "spell",
+      "alternatives": ["barrel", "goblin", "gob barrel", "throw barrel"]
+    },
+    {
+      "name": "Tornado",
+      "type": "spell",
+      "alternatives": ["nado", "tornado", "spin", "pull"]
+    },
+    {
+      "name": "Clone",
+      "type": "spell",
+      "alternatives": ["copy", "duplicate", "mirror", "double"]
+    },
+    {
+      "name": "Void",
+      "type": "spell",
+      "alternatives": ["void", "black hole", "suck", "pull"]
+    },
+    {
+      "name": "Vines",
+      "type": "spell",
+      "alternatives": ["vine", "plant", "green", "roots"]
+    }
   ],
   "4": [
-    {"name": "Skeleton Dragons", "type": "troop"},
-    {"name": "Valkyrie", "type": "troop"},
-    {"name": "Musketeer", "type": "troop"},
-    {"name": "Mini P.E.K.K.A", "type": "troop"},
-    {"name": "Hog Rider", "type": "troop"},
-    {"name": "Battle Ram", "type": "troop"},
-    {"name": "Zappies", "type": "troop"},
-    {"name": "Flying Machine", "type": "troop"},
-    {"name": "Battle Healer", "type": "troop"},
-    {"name": "Goblin Demolisher", "type": "troop"},
-    {"name": "Baby Dragon", "type": "troop"},
-    {"name": "Dark Prince", "type": "troop"},
-    {"name": "Hunter", "type": "troop"},
-    {"name": "Rune Giant", "type": "troop"},
-    {"name": "Lumberjack", "type": "troop"},
-    {"name": "Inferno Dragon", "type": "troop"},
-    {"name": "Electro Wizard", "type": "troop"},
-    {"name": "Night Witch", "type": "troop"},
-    {"name": "Magic Archer", "type": "troop"},
-    {"name": "Mother Witch", "type": "troop"},
-    {"name": "Phoenix", "type": "troop"},
-    {"name": "Mighty Miner", "type": "troop"},
-    {"name": "Skeleton King", "type": "troop"},
-    {"name": "Golden Knight", "type": "troop"},
-    {"name": "Mortar", "type": "building"},
-    {"name": "Tesla", "type": "building"},
-    {"name": "Bomb Tower", "type": "building"},
-    {"name": "Furnace", "type": "building"},
-    {"name": "Goblin Cage", "type": "building"},
-    {"name": "Goblin Drill", "type": "building"},
-    {"name": "Fireball", "type": "spell"},
-    {"name": "Freeze", "type": "spell"},
-    {"name": "Poison", "type": "spell"}
+    {
+      "name": "Skeleton Dragons",
+      "type": "troop",
+      "alternatives": [
+        "skeleton dragon",
+        "bone dragon",
+        "skelly dragon",
+        "flying bones"
+      ]
+    },
+    {
+      "name": "Valkyrie",
+      "type": "troop",
+      "alternatives": ["valk", "valkyrie", "spin", "red hair"]
+    },
+    {
+      "name": "Musketeer",
+      "type": "troop",
+      "alternatives": ["musket", "gun", "rifle", "blue dress"]
+    },
+    {
+      "name": "Mini P.E.K.K.A",
+      "type": "troop",
+      "alternatives": ["mini pekka", "pekka", "robot", "sword robot", "mini"]
+    },
+    {
+      "name": "Hog Rider",
+      "type": "troop",
+      "alternatives": ["hog", "rider", "pig", "hammer guy"]
+    },
+    {
+      "name": "Battle Ram",
+      "type": "troop",
+      "alternatives": ["ram", "battle", "charge", "barbarians"]
+    },
+    {
+      "name": "Zappies",
+      "type": "troop",
+      "alternatives": ["zappy", "electric", "stun", "blue guys"]
+    },
+    {
+      "name": "Flying Machine",
+      "type": "troop",
+      "alternatives": ["machine", "flying", "helicopter", "copter"]
+    },
+    {
+      "name": "Battle Healer",
+      "type": "troop",
+      "alternatives": ["healer", "battle", "heal", "support"]
+    },
+    {
+      "name": "Goblin Demolisher",
+      "type": "troop",
+      "alternatives": ["demolisher", "goblin", "cannon", "siege"]
+    },
+    {
+      "name": "Baby Dragon",
+      "type": "troop",
+      "alternatives": ["baby", "dragon", "flying", "fire"]
+    },
+    {
+      "name": "Dark Prince",
+      "type": "troop",
+      "alternatives": ["dark", "prince", "charge", "shield"]
+    },
+    {
+      "name": "Hunter",
+      "type": "troop",
+      "alternatives": ["hunt", "shotgun", "spread", "beard"]
+    },
+    {
+      "name": "Rune Giant",
+      "type": "troop",
+      "alternatives": ["rune", "giant", "magic", "purple"]
+    },
+    {
+      "name": "Lumberjack",
+      "type": "troop",
+      "alternatives": ["lumber", "jack", "axe", "rage", "wood"]
+    },
+    {
+      "name": "Inferno Dragon",
+      "type": "troop",
+      "alternatives": ["inferno", "dragon", "beam", "melt"]
+    },
+    {
+      "name": "Electro Wizard",
+      "type": "troop",
+      "alternatives": ["ewiz", "electro", "wizard", "electric", "stun"]
+    },
+    {
+      "name": "Night Witch",
+      "type": "troop",
+      "alternatives": ["witch", "night", "bats", "dark"]
+    },
+    {
+      "name": "Magic Archer",
+      "type": "troop",
+      "alternatives": ["magic", "archer", "penetrate", "long range"]
+    },
+    {
+      "name": "Mother Witch",
+      "type": "troop",
+      "alternatives": ["mother", "witch", "curse", "pigs"]
+    },
+    {
+      "name": "Phoenix",
+      "type": "troop",
+      "alternatives": ["phoenix", "bird", "fire bird", "rebirth"]
+    },
+    {
+      "name": "Mighty Miner",
+      "type": "troop",
+      "alternatives": ["mighty", "miner", "drill", "underground"]
+    },
+    {
+      "name": "Skeleton King",
+      "type": "troop",
+      "alternatives": ["king", "skeleton", "skelly king", "bone king"]
+    },
+    {
+      "name": "Golden Knight",
+      "type": "troop",
+      "alternatives": ["golden", "knight", "gold", "dash"]
+    },
+    {
+      "name": "Mortar",
+      "type": "building",
+      "alternatives": ["mortar", "siege", "long range", "cannon"]
+    },
+    {
+      "name": "Tesla",
+      "type": "building",
+      "alternatives": ["tesla", "electric", "hidden", "pop up"]
+    },
+    {
+      "name": "Bomb Tower",
+      "type": "building",
+      "alternatives": ["bomb", "tower", "explosive", "death damage"]
+    },
+    {
+      "name": "Furnace",
+      "type": "building",
+      "alternatives": ["furnace", "fire spirits", "spawner"]
+    },
+    {
+      "name": "Goblin Cage",
+      "type": "building",
+      "alternatives": ["cage", "goblin", "brawler", "prison"]
+    },
+    {
+      "name": "Goblin Drill",
+      "type": "building",
+      "alternatives": ["drill", "goblin", "underground", "spawn"]
+    },
+    {
+      "name": "Fireball",
+      "type": "spell",
+      "alternatives": ["fire", "ball", "explosion", "damage"]
+    },
+    {
+      "name": "Freeze",
+      "type": "spell",
+      "alternatives": ["ice", "stop", "frozen", "pause"]
+    },
+    {
+      "name": "Poison",
+      "type": "spell",
+      "alternatives": ["poison", "green", "damage over time", "dot"]
+    }
   ],
   "5": [
-    {"name": "Barbarians", "type": "troop"},
-    {"name": "Minion Horde", "type": "troop"},
-    {"name": "Rascals", "type": "troop"},
-    {"name": "Giant", "type": "troop"},
-    {"name": "Wizard", "type": "troop"},
-    {"name": "Royal Hogs", "type": "troop"},
-    {"name": "Balloon", "type": "troop"},
-    {"name": "Witch", "type": "troop"},
-    {"name": "Prince", "type": "troop"},
-    {"name": "Bowler", "type": "troop"},
-    {"name": "Executioner", "type": "troop"},
-    {"name": "Cannon Cart", "type": "troop"},
-    {"name": "Electro Dragon", "type": "troop"},
-    {"name": "Ram Rider", "type": "troop"},
-    {"name": "Archer Queen", "type": "troop"},
-    {"name": "Monk", "type": "troop"},
-    {"name": "Goblinstein", "type": "troop"},
-    {"name": "Goblin Hut", "type": "building"},
-    {"name": "Inferno Tower", "type": "building"},
-    {"name": "Graveyard", "type": "spell"}
+    {
+      "name": "Barbarians",
+      "type": "troop",
+      "alternatives": ["barbs", "barbarian", "yellow hair", "swords"]
+    },
+    {
+      "name": "Minion Horde",
+      "type": "troop",
+      "alternatives": ["horde", "minions", "swarm", "flying swarm"]
+    },
+    {
+      "name": "Rascals",
+      "type": "troop",
+      "alternatives": ["rascal", "boy", "girls", "slingshot"]
+    },
+    {
+      "name": "Giant",
+      "type": "troop",
+      "alternatives": ["big guy", "tank", "orange", "huge"]
+    },
+    {
+      "name": "Wizard",
+      "type": "troop",
+      "alternatives": ["wiz", "magic", "fireball", "beard"]
+    },
+    {
+      "name": "Royal Hogs",
+      "type": "troop",
+      "alternatives": ["hogs", "royal", "pigs", "hammers"]
+    },
+    {
+      "name": "Balloon",
+      "type": "troop",
+      "alternatives": ["loon", "bomb", "flying", "death damage"]
+    },
+    {
+      "name": "Witch",
+      "type": "troop",
+      "alternatives": ["witch", "skeletons", "spawner", "purple"]
+    },
+    {
+      "name": "Prince",
+      "type": "troop",
+      "alternatives": ["prince", "charge", "lance", "horse"]
+    },
+    {
+      "name": "Bowler",
+      "type": "troop",
+      "alternatives": ["bowl", "rock", "purple guy", "throw"]
+    },
+    {
+      "name": "Executioner",
+      "type": "troop",
+      "alternatives": ["exe", "axe", "hooded", "throw"]
+    },
+    {
+      "name": "Cannon Cart",
+      "type": "troop",
+      "alternatives": ["cart", "cannon", "wheels", "mobile"]
+    },
+    {
+      "name": "Electro Dragon",
+      "type": "troop",
+      "alternatives": ["edragon", "electric dragon", "chain", "lightning"]
+    },
+    {
+      "name": "Ram Rider",
+      "type": "troop",
+      "alternatives": ["ram", "rider", "snare", "slow"]
+    },
+    {
+      "name": "Archer Queen",
+      "type": "troop",
+      "alternatives": ["queen", "archer", "aq", "bow"]
+    },
+    {
+      "name": "Monk",
+      "type": "troop",
+      "alternatives": ["monk", "deflect", "martial arts", "bald"]
+    },
+    {
+      "name": "Goblinstein",
+      "type": "troop",
+      "alternatives": ["goblinstein", "frankenstein", "monster", "electric"]
+    },
+    {
+      "name": "Goblin Hut",
+      "type": "building",
+      "alternatives": ["hut", "goblin", "spawner", "spears"]
+    },
+    {
+      "name": "Inferno Tower",
+      "type": "building",
+      "alternatives": ["inferno", "tower", "it", "beam", "melt"]
+    },
+    {
+      "name": "Graveyard",
+      "type": "spell",
+      "alternatives": ["gy", "grave", "skeletons", "spawn"]
+    }
   ],
   "6": [
-    {"name": "Royal Giant", "type": "troop"},
-    {"name": "Elite Barbarians", "type": "troop"},
-    {"name": "Giant Skeleton", "type": "troop"},
-    {"name": "Goblin Giant", "type": "troop"},
-    {"name": "Sparky", "type": "troop"},
-    {"name": "Spirit Empress", "type": "troop"},
-    {"name": "Boss Bandit", "type": "troop"},
-    {"name": "Elixir Collector", "type": "building"},
-    {"name": "X-Bow", "type": "building"},
-    {"name": "Rocket", "type": "spell"},
-    {"name": "Lightning", "type": "spell"},
-    {"name": "Barbarian Hut", "type": "building"}
+    {
+      "name": "Royal Giant",
+      "type": "troop",
+      "alternatives": ["rg", "royal", "giant", "cannon", "mustache"]
+    },
+    {
+      "name": "Elite Barbarians",
+      "type": "troop",
+      "alternatives": ["ebarbs", "elite", "barbs", "fast", "rage"]
+    },
+    {
+      "name": "Giant Skeleton",
+      "type": "troop",
+      "alternatives": ["giant skeleton", "gs", "bomb", "death damage"]
+    },
+    {
+      "name": "Goblin Giant",
+      "type": "troop",
+      "alternatives": ["goblin giant", "gg", "spear goblins", "big goblin"]
+    },
+    {
+      "name": "Sparky",
+      "type": "troop",
+      "alternatives": ["spark", "robot", "charge", "electric"]
+    },
+    {
+      "name": "Spirit Empress",
+      "type": "troop",
+      "alternatives": ["empress", "spirit", "teleport", "magic"]
+    },
+    {
+      "name": "Boss Bandit",
+      "type": "troop",
+      "alternatives": ["boss", "bandit", "dash", "leader"]
+    },
+    {
+      "name": "Elixir Collector",
+      "type": "building",
+      "alternatives": ["collector", "elixir", "pump", "ec"]
+    },
+    {
+      "name": "X-Bow",
+      "type": "building",
+      "alternatives": ["xbow", "crossbow", "siege", "long range"]
+    },
+    {
+      "name": "Rocket",
+      "type": "spell",
+      "alternatives": ["rocket", "missile", "high damage", "tower"]
+    },
+    {
+      "name": "Lightning",
+      "type": "spell",
+      "alternatives": ["lightning", "bolt", "electric", "three targets"]
+    },
+    {
+      "name": "Barbarian Hut",
+      "type": "building",
+      "alternatives": ["barb hut", "hut", "barbarian", "spawner"]
+    }
   ],
   "7": [
-    {"name": "Royal Recruits", "type": "troop"},
-    {"name": "P.E.K.K.A", "type": "troop"},
-    {"name": "Electro Giant", "type": "troop"},
-    {"name": "Lava Hound", "type": "troop"},
-    {"name": "Mega Knight", "type": "troop"}
+    {
+      "name": "Royal Recruits",
+      "type": "troop",
+      "alternatives": ["recruits", "royal", "shields", "six guys"]
+    },
+    {
+      "name": "P.E.K.K.A",
+      "type": "troop",
+      "alternatives": ["pekka", "robot", "sword", "armor", "big robot"]
+    },
+    {
+      "name": "Electro Giant",
+      "type": "troop",
+      "alternatives": ["egiant", "electro", "giant", "electric", "reflect"]
+    },
+    {
+      "name": "Lava Hound",
+      "type": "troop",
+      "alternatives": ["lava", "hound", "dog", "pups", "flying tank"]
+    },
+    {
+      "name": "Mega Knight",
+      "type": "troop",
+      "alternatives": ["mk", "mega", "knight", "jump", "splash"]
+    }
   ],
   "8": [
-    {"name": "Golem", "type": "troop"}
+    {
+      "name": "Golem",
+      "type": "troop",
+      "alternatives": ["golem", "rock", "stone", "golemites", "tank"]
+    }
   ],
   "9": [
-    {"name": "3 Musketeers", "type": "troop"}
+    {
+      "name": "Three Musketeers",
+      "type": "troop",
+      "alternatives": ["3m", "three", "musketeers", "three musket", "muskets"]
+    }
   ],
   "0": [
-    {"name": "Mirror", "type": "spell"}
+    {
+      "name": "Mirror",
+      "type": "spell",
+      "alternatives": ["mirror", "copy", "duplicate", "same card"]
+    }
   ]
 }
