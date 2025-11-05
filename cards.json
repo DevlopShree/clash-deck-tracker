@@ -8,7 +8,7 @@
     {
       "name": "Ice Spirit",
       "type": "troop",
-      "alternatives": ["ice", "spirit", "freeze spirit"]
+      "alternatives": ["spirit", "freeze spirit"]
     },
     {
       "name": "Fire Spirit",
@@ -19,16 +19,14 @@
       "name": "Electro Spirit",
       "type": "troop",
       "alternatives": [
-        "electro",
         "electric spirit",
-        "zap spirit",
         "shock spirit"
       ]
     },
     {
       "name": "Heal Spirit",
       "type": "troop",
-      "alternatives": ["heal", "healing spirit", "health spirit"]
+      "alternatives": ["healing spirit", "health spirit"]
     }
   ],
   "2": [
@@ -45,22 +43,22 @@
     {
       "name": "Spear Goblins",
       "type": "troop",
-      "alternatives": ["spear", "spear gobs", "spears", "javelin goblins"]
+      "alternatives": ["spear", "spear gobs", "spears"]
     },
     {
       "name": "Bats",
       "type": "troop",
-      "alternatives": ["bat", "flying bats", "wings"]
+      "alternatives": ["bat", "wings"]
     },
     {
       "name": "Berserker",
       "type": "troop",
-      "alternatives": ["berserker", "rage guy", "angry man"]
+      "alternatives": ["bazar", "rage guy", "angry man"]
     },
     {
       "name": "Ice Golem",
       "type": "troop",
-      "alternatives": ["ice", "golem", "frozen golem", "ice tank"]
+      "alternatives": ["ice", "frozen golem", "ice tank"]
     },
     {
       "name": "Suspicious Bush",
@@ -70,12 +68,12 @@
     {
       "name": "Wall Breakers",
       "type": "troop",
-      "alternatives": ["wall breaker", "breakers", "bombers", "wall bomb"]
+      "alternatives": ["wall breaker", "breakers", "wall bomb"]
     },
     {
       "name": "Zap",
       "type": "spell",
-      "alternatives": ["shock", "lightning", "electric", "stun"]
+      "alternatives": ["shock", "web"]
     },
     {
       "name": "Giant Snowball",
@@ -90,12 +88,12 @@
     {
       "name": "Barbarian Barrel",
       "type": "spell",
-      "alternatives": ["barb barrel", "barrel", "barbarian", "rolling barrel"]
+      "alternatives": ["barb barrel", "rolling barrel"]
     },
     {
       "name": "Goblin Curse",
       "type": "spell",
-      "alternatives": ["curse", "goblin", "hex", "magic curse"]
+      "alternatives": ["curse", "hex", "magic curse"]
     },
     {
       "name": "The Log",
@@ -107,7 +105,7 @@
     {
       "name": "Knight",
       "type": "troop",
-      "alternatives": ["night", "armor guy", "sword guy", "tank"]
+      "alternatives": ["night", "armor guy", "sword guy"]
     },
     {
       "name": "Archers",
@@ -117,7 +115,7 @@
     {
       "name": "Minions",
       "type": "troop",
-      "alternatives": ["minion", "flying", "purple guys", "wings"]
+      "alternatives": ["minion", "purple guys", "wings"]
     },
     {
       "name": "Goblin Gang",
@@ -212,7 +210,7 @@
     {
       "name": "Tombstone",
       "type": "building",
-      "alternatives": ["tomb", "grave", "skeleton spawner", "bones"]
+      "alternatives": ["tomb", "grave", "skeleton spawner"]
     },
     {
       "name": "Arrows",
@@ -222,7 +220,7 @@
     {
       "name": "Royal Delivery",
       "type": "spell",
-      "alternatives": ["delivery", "royal", "recruit drop", "parachute"]
+      "alternatives": ["delivery", "recruit drop", "parachute"]
     },
     {
       "name": "Earthquake",
@@ -232,7 +230,7 @@
     {
       "name": "Goblin Barrel",
       "type": "spell",
-      "alternatives": ["barrel", "goblin", "gob barrel", "throw barrel"]
+      "alternatives": ["barrel", "gob barrel", "throw barrel"]
     },
     {
       "name": "Tornado",
@@ -242,7 +240,7 @@
     {
       "name": "Clone",
       "type": "spell",
-      "alternatives": ["copy", "duplicate", "mirror", "double"]
+      "alternatives": ["copy", "duplicate", "double"]
     },
     {
       "name": "Void",
@@ -262,8 +260,7 @@
       "alternatives": [
         "skeleton dragon",
         "bone dragon",
-        "skelly dragon",
-        "flying bones"
+        "skelly dragon"
       ]
     },
     {
@@ -274,27 +271,27 @@
     {
       "name": "Musketeer",
       "type": "troop",
-      "alternatives": ["musket", "gun", "rifle", "blue dress"]
+      "alternatives": ["muskee", "gun", "rifle", "blue dress"]
     },
     {
       "name": "Mini P.E.K.K.A",
       "type": "troop",
-      "alternatives": ["mini pekka", "pekka", "robot", "sword robot", "mini"]
+      "alternatives": ["mini pekka", "pekka", "robot", "mini"]
     },
     {
       "name": "Hog Rider",
       "type": "troop",
-      "alternatives": ["hog", "rider", "pig", "hammer guy"]
+      "alternatives": ["rider", "hammer guy"]
     },
     {
       "name": "Battle Ram",
       "type": "troop",
-      "alternatives": ["ram", "battle", "charge", "barbarians"]
+      "alternatives": ["ram", "battle", "charge"]
     },
     {
       "name": "Zappies",
       "type": "troop",
-      "alternatives": ["zappy", "electric", "stun", "blue guys"]
+      "alternatives": ["zappy", "electric", "stun"]
     },
     {
       "name": "Flying Machine",
@@ -304,22 +301,22 @@
     {
       "name": "Battle Healer",
       "type": "troop",
-      "alternatives": ["healer", "battle", "heal", "support"]
+      "alternatives": ["healer", "heal", "support"]
     },
     {
       "name": "Goblin Demolisher",
       "type": "troop",
-      "alternatives": ["demolisher", "goblin", "cannon", "siege"]
+      "alternatives": ["demolisher", "siege"]
     },
     {
       "name": "Baby Dragon",
       "type": "troop",
-      "alternatives": ["baby", "dragon", "flying", "fire"]
+      "alternatives": ["baby", "dragon", "fire"]
     },
     {
       "name": "Dark Prince",
       "type": "troop",
-      "alternatives": ["dark", "prince", "charge", "shield"]
+      "alternatives": ["dark", "shield"]
     },
     {
       "name": "Hunter",
@@ -329,17 +326,17 @@
     {
       "name": "Rune Giant",
       "type": "troop",
-      "alternatives": ["rune", "giant", "magic", "purple"]
+      "alternatives": ["rune"]
     },
     {
       "name": "Lumberjack",
       "type": "troop",
-      "alternatives": ["lumber", "jack", "axe", "rage", "wood"]
+      "alternatives": ["lumber", "jack", "axe"]
     },
     {
       "name": "Inferno Dragon",
       "type": "troop",
-      "alternatives": ["inferno", "dragon", "beam", "melt"]
+      "alternatives": ["dragon", "beam", "melt"]
     },
     {
       "name": "Electro Wizard",
@@ -349,7 +346,7 @@
     {
       "name": "Night Witch",
       "type": "troop",
-      "alternatives": ["witch", "night", "bats", "dark"]
+      "alternatives": []
     },
     {
       "name": "Magic Archer",
@@ -359,7 +356,7 @@
     {
       "name": "Mother Witch",
       "type": "troop",
-      "alternatives": ["mother", "witch", "curse", "pigs"]
+      "alternatives": ["mother"]
     },
     {
       "name": "Phoenix",
@@ -404,12 +401,12 @@
     {
       "name": "Goblin Cage",
       "type": "building",
-      "alternatives": ["cage", "goblin", "brawler", "prison"]
+      "alternatives": ["cage", "brawler", "prison"]
     },
     {
       "name": "Goblin Drill",
       "type": "building",
-      "alternatives": ["drill", "goblin", "underground", "spawn"]
+      "alternatives": ["drill", "underground", "spawn"]
     },
     {
       "name": "Fireball",
@@ -436,7 +433,7 @@
     {
       "name": "Minion Horde",
       "type": "troop",
-      "alternatives": ["horde", "minions", "swarm", "flying swarm"]
+      "alternatives": ["horde", "swarm", "flying swarm"]
     },
     {
       "name": "Rascals",
@@ -451,7 +448,7 @@
     {
       "name": "Wizard",
       "type": "troop",
-      "alternatives": ["wiz", "magic", "fireball", "beard"]
+      "alternatives": ["wiz", "fireball", "beard"]
     },
     {
       "name": "Royal Hogs",
@@ -461,7 +458,7 @@
     {
       "name": "Balloon",
       "type": "troop",
-      "alternatives": ["loon", "bomb", "flying", "death damage"]
+      "alternatives": ["loon", "death damage"]
     },
     {
       "name": "Witch",
@@ -516,7 +513,7 @@
     {
       "name": "Goblin Hut",
       "type": "building",
-      "alternatives": ["hut", "goblin", "spawner", "spears"]
+      "alternatives": ["hut", "spawner", "spears"]
     },
     {
       "name": "Inferno Tower",
@@ -548,7 +545,7 @@
     {
       "name": "Goblin Giant",
       "type": "troop",
-      "alternatives": ["goblin giant", "gg", "spear goblins", "big goblin"]
+      "alternatives": ["goblin giant", "gg", "big goblin"]
     },
     {
       "name": "Sparky",
@@ -558,7 +555,7 @@
     {
       "name": "Spirit Empress",
       "type": "troop",
-      "alternatives": ["empress", "spirit", "teleport", "magic"]
+      "alternatives": ["empress", "spirit", "teleport"]
     },
     {
       "name": "Boss Bandit",
