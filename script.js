@@ -93,8 +93,22 @@ class DeckTracker {
 
             sortedCards.forEach(card => {
                 const cardBtn = document.createElement('button');
-                cardBtn.className = 'card-button bg-blue-600 hover:bg-blue-700 p-2 rounded text-sm font-medium';
-                cardBtn.textContent = card.name;
+                cardBtn.className = 'card-button hover:scale-105 transition-transform duration-200 flex flex-col items-center';
+                
+                const img = document.createElement('img');
+                img.src = card.image;
+                img.alt = card.name;
+                img.className = 'w-16 h-20 object-cover rounded shadow-lg border-2 border-gray-300 hover:border-blue-400';
+                img.onerror = function() {
+                    this.style.display = 'none';
+                    const fallback = document.createElement('div');
+                    fallback.className = 'w-16 h-20 bg-gray-600 rounded flex items-center justify-center text-xs text-white text-center p-1';
+                    fallback.textContent = card.name;
+                    cardBtn.appendChild(fallback);
+                };
+                
+                cardBtn.appendChild(img);
+                
                 cardBtn.addEventListener('click', () => {
                     this.selectCard(card);
                 });
@@ -157,15 +171,18 @@ class DeckTracker {
 
             if (card) {
                 slot.innerHTML = `
-                    <span class="font-medium">${card.name}</span>
-                    ${card.isEvo ? '<span class="evo-star">⭐</span>' : ''}
+                    <div class="flex flex-col items-center justify-center h-full relative">
+                        <img src="${card.image}" alt="${card.name}" class="w-full h-full object-cover rounded border border-gray-400" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                        <div class="w-full h-full bg-gray-600 rounded flex items-center justify-center text-xs text-white text-center p-1" style="display: none;">${card.name}</div>
+                        ${card.isEvo ? '<span class="evo-star">⭐</span>' : ''}
+                    </div>
                 `;
-                slot.classList.remove('bg-gray-800');
-                slot.classList.add('bg-green-700');
+                slot.classList.remove('bg-gray-800', 'border-gray-600');
+                slot.classList.add('bg-transparent', 'border-transparent');
             } else {
-                slot.innerHTML = '<span class="text-gray-400">Unknown</span>';
-                slot.classList.remove('bg-green-700');
-                slot.classList.add('bg-gray-800');
+                slot.innerHTML = '<div class="flex items-center justify-center h-full"><span class="text-gray-400 text-xs">Unknown</span></div>';
+                slot.classList.remove('bg-transparent', 'border-transparent');
+                slot.classList.add('bg-gray-800', 'border-gray-600');
             }
         });
     }

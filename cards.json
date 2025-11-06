@@ -3,164 +3,197 @@
     {
       "name": "Skeletons",
       "type": "troop",
-      "alternatives": ["skeleton", "skelly", "bones", "skulls"]
+      "alternatives": ["skeleton", "skelly", "bones", "skulls"],
+      "image": "https://www.noff.gg/clash-royale/res/img/cards/skeletons.webp"
     },
     {
       "name": "Ice Spirit",
       "type": "troop",
-      "alternatives": ["spirit", "freeze spirit"]
+      "alternatives": ["ice", "spirit", "freeze spirit"],
+      "image": "https://www.noff.gg/clash-royale/res/img/cards/ice_spirit.webp"
     },
     {
       "name": "Fire Spirit",
       "type": "troop",
-      "alternatives": ["fire", "flame spirit", "burn spirit"]
+      "alternatives": ["fire", "flame spirit", "burn spirit"],
+      "image": "https://www.noff.gg/clash-royale/res/img/cards/fire_spirit.webp"
     },
     {
       "name": "Electro Spirit",
       "type": "troop",
       "alternatives": [
+        "electro",
         "electric spirit",
+        "zap spirit",
         "shock spirit"
-      ]
+      ],
+      "image": "https://www.noff.gg/clash-royale/res/img/cards/electro_spirit.webp"
     },
     {
       "name": "Heal Spirit",
       "type": "troop",
-      "alternatives": ["healing spirit", "health spirit"]
+      "alternatives": ["heal", "healing spirit", "health spirit"],
+      "image": "https://www.noff.gg/clash-royale/res/img/cards/heal_spirit.webp"
     }
   ],
   "2": [
     {
       "name": "Goblins",
       "type": "troop",
-      "alternatives": ["goblin", "gobs", "green guys"]
+      "alternatives": ["goblin", "gobs", "green guys"],
+      "image": "https://www.noff.gg/clash-royale/res/img/cards/goblins.webp"
     },
     {
       "name": "Bomber",
       "type": "troop",
-      "alternatives": ["bomb", "bomber guy", "explosive"]
+      "alternatives": ["bomb", "bomber guy", "explosive"],
+      "image": "https://www.noff.gg/clash-royale/res/img/cards/bomber.webp"
     },
     {
       "name": "Spear Goblins",
       "type": "troop",
-      "alternatives": ["spear", "spear gobs", "spears"]
+      "alternatives": ["spear", "spear gobs", "spears", "javelin goblins"],
+      "image": "https://www.noff.gg/clash-royale/res/img/cards/spear_goblins.webp"
     },
     {
       "name": "Bats",
       "type": "troop",
-      "alternatives": ["bat", "wings"]
+      "alternatives": ["bat", "flying bats", "wings"],
+      "image": "https://www.noff.gg/clash-royale/res/img/cards/bats.webp"
     },
     {
       "name": "Berserker",
       "type": "troop",
-      "alternatives": ["bazar", "rage guy", "angry man"]
+      "alternatives": ["berserker", "rage guy", "angry man"],
+      "image": "https://www.noff.gg/clash-royale/res/img/cards/berserker.webp"
     },
     {
       "name": "Ice Golem",
       "type": "troop",
-      "alternatives": ["ice", "frozen golem", "ice tank"]
+      "alternatives": ["ice", "golem", "frozen golem", "ice tank"],
+      "image": "https://www.noff.gg/clash-royale/res/img/cards/ice_golem.webp"
     },
     {
       "name": "Suspicious Bush",
       "type": "troop",
-      "alternatives": ["bush", "suspicious", "hiding bush", "sneaky bush"]
+      "alternatives": ["bush", "suspicious", "hiding bush", "sneaky bush"],
+      "image": "https://www.noff.gg/clash-royale/res/img/cards/suspicious_bush.webp"
     },
     {
       "name": "Wall Breakers",
       "type": "troop",
-      "alternatives": ["wall breaker", "breakers", "wall bomb"]
+      "alternatives": ["wall breaker", "breakers", "bombers", "wall bomb"],
+      "image": "https://www.noff.gg/clash-royale/res/img/cards/wall_breakers.webp"
     },
     {
       "name": "Zap",
       "type": "spell",
-      "alternatives": ["shock", "web"]
+      "alternatives": ["shock", "lightning", "electric", "stun"],
+      "image": "https://www.noff.gg/clash-royale/res/img/cards/zap.webp"
     },
     {
       "name": "Giant Snowball",
       "type": "spell",
-      "alternatives": ["snowball", "snow", "giant snow", "ice ball"]
+      "alternatives": ["snowball", "snow", "giant snow", "ice ball"],
+      "image": "https://www.noff.gg/clash-royale/res/img/cards/giant_snowball.webp"
     },
     {
       "name": "Rage",
       "type": "spell",
-      "alternatives": ["angry", "speed", "boost", "fast"]
+      "alternatives": ["angry", "speed", "boost", "fast"],
+      "image": "https://www.noff.gg/clash-royale/res/img/cards/rage.webp"
     },
     {
       "name": "Barbarian Barrel",
       "type": "spell",
-      "alternatives": ["barb barrel", "rolling barrel"]
+      "alternatives": ["barb barrel", "barrel", "barbarian", "rolling barrel"],
+      "image": "https://www.noff.gg/clash-royale/res/img/cards/barbarian_barrel.webp"
     },
     {
       "name": "Goblin Curse",
       "type": "spell",
-      "alternatives": ["curse", "hex", "magic curse"]
+      "alternatives": ["curse", "goblin", "hex", "magic curse"],
+      "image": "https://www.noff.gg/clash-royale/res/img/cards/goblin_curse.webp"
     },
     {
       "name": "The Log",
       "type": "spell",
-      "alternatives": ["log", "wood", "rolling log", "tree log"]
+      "alternatives": ["log", "wood", "rolling log", "tree log"],
+      "image": "https://www.noff.gg/clash-royale/res/img/cards/the_log.webp"
     }
   ],
   "3": [
     {
       "name": "Knight",
       "type": "troop",
-      "alternatives": ["night", "armor guy", "sword guy"]
+      "alternatives": ["night", "armor guy", "sword guy", "tank"],
+      "image": "https://www.noff.gg/clash-royale/res/img/cards/knight.webp"
     },
     {
       "name": "Archers",
       "type": "troop",
-      "alternatives": ["archer", "bow", "arrows", "pink hair"]
+      "alternatives": ["archer", "bow", "arrows", "pink hair"],
+      "image": "https://www.noff.gg/clash-royale/res/img/cards/archers.webp"
     },
     {
       "name": "Minions",
       "type": "troop",
-      "alternatives": ["minion", "purple guys", "wings"]
+      "alternatives": ["minion", "flying", "purple guys", "wings"],
+      "image": "https://www.noff.gg/clash-royale/res/img/cards/minions.webp"
     },
     {
       "name": "Goblin Gang",
       "type": "troop",
-      "alternatives": ["gang", "goblin", "gob gang", "green gang"]
+      "alternatives": ["gang", "goblin", "gob gang", "green gang"],
+      "image": "https://www.noff.gg/clash-royale/res/img/cards/goblin_gang.webp"
     },
     {
       "name": "Skeleton Barrel",
       "type": "troop",
-      "alternatives": ["barrel", "skeleton", "skelly barrel", "bone barrel"]
+      "alternatives": ["barrel", "skeleton", "skelly barrel", "bone barrel"],
+      "image": "https://www.noff.gg/clash-royale/res/img/cards/skeleton_barrel.webp"
     },
     {
       "name": "Firecracker",
       "type": "troop",
-      "alternatives": ["cracker", "fire", "explosive girl", "redhead"]
+      "alternatives": ["cracker", "fire", "explosive girl", "redhead"],
+      "image": "https://www.noff.gg/clash-royale/res/img/cards/firecracker.webp"
     },
     {
       "name": "Mega Minion",
       "type": "troop",
-      "alternatives": ["mega", "minion", "big minion", "fat minion"]
+      "alternatives": ["mega", "minion", "big minion", "fat minion"],
+      "image": "https://www.noff.gg/clash-royale/res/img/cards/mega_minion.webp"
     },
     {
       "name": "Dart Goblin",
       "type": "troop",
-      "alternatives": ["dart", "goblin", "blow dart", "sniper goblin"]
+      "alternatives": ["dart", "goblin", "blow dart", "sniper goblin"],
+      "image": "https://www.noff.gg/clash-royale/res/img/cards/dart_goblin.webp"
     },
     {
       "name": "Elixir Golem",
       "type": "troop",
-      "alternatives": ["elixir", "golem", "purple golem", "pink golem"]
+      "alternatives": ["elixir", "golem", "purple golem", "pink golem"],
+      "image": "https://www.noff.gg/clash-royale/res/img/cards/elixir_golem.webp"
     },
     {
       "name": "Skeleton Army",
       "type": "troop",
-      "alternatives": ["army", "skeleton", "skelly army", "skarmy", "bones"]
+      "alternatives": ["army", "skeleton", "skelly army", "skarmy", "bones"],
+      "image": "https://www.noff.gg/clash-royale/res/img/cards/skeleton_army.webp"
     },
     {
       "name": "Guards",
       "type": "troop",
-      "alternatives": ["guard", "shield", "spear guards", "blue guys"]
+      "alternatives": ["guard", "shield", "spear guards", "blue guys"],
+      "image": "https://www.noff.gg/clash-royale/res/img/cards/guards.webp"
     },
     {
       "name": "Ice Wizard",
       "type": "troop",
-      "alternatives": ["ice", "wizard", "freeze wizard", "blue wizard"]
+      "alternatives": ["ice", "wizard", "freeze wizard", "blue wizard"],
+      "image": "https://www.noff.gg/clash-royale/res/img/cards/ice_wizard.webp"
     },
     {
       "name": "Princess",
@@ -170,87 +203,104 @@
         "archer princess",
         "tower princess",
         "long range"
-      ]
+      ],
+      "image": "https://www.noff.gg/clash-royale/res/img/cards/princess.webp"
     },
     {
       "name": "Miner",
       "type": "troop",
-      "alternatives": ["minor", "digger", "underground", "shovel guy"]
+      "alternatives": ["minor", "digger", "underground", "shovel guy"],
+      "image": "https://www.noff.gg/clash-royale/res/img/cards/miner.webp"
     },
     {
       "name": "Bandit",
       "type": "troop",
-      "alternatives": ["bandit", "dash", "charge", "purple girl"]
+      "alternatives": ["bandit", "dash", "charge", "purple girl"],
+      "image": "https://www.noff.gg/clash-royale/res/img/cards/bandit.webp"
     },
     {
       "name": "Royal Ghost",
       "type": "troop",
-      "alternatives": ["ghost", "royal", "invisible", "spirit"]
+      "alternatives": ["ghost", "royal", "invisible", "spirit"],
+      "image": "https://www.noff.gg/clash-royale/res/img/cards/royal_ghost.webp"
     },
     {
       "name": "Fisherman",
       "type": "troop",
-      "alternatives": ["fisher", "hook", "anchor", "pull"]
+      "alternatives": ["fisher", "hook", "anchor", "pull"],
+      "image": "https://www.noff.gg/clash-royale/res/img/cards/fisherman.webp"
     },
     {
       "name": "Goblin Machine",
       "type": "troop",
-      "alternatives": ["machine", "goblin", "drill", "contraption"]
+      "alternatives": ["machine", "goblin", "drill", "contraption"],
+      "image": "https://www.noff.gg/clash-royale/res/img/cards/goblin_machine.webp"
     },
     {
       "name": "Little Prince",
       "type": "troop",
-      "alternatives": ["prince", "little", "small prince", "mini prince"]
+      "alternatives": ["prince", "little", "small prince", "mini prince"],
+      "image": "https://www.noff.gg/clash-royale/res/img/cards/little_prince.webp"
     },
     {
       "name": "Cannon",
       "type": "building",
-      "alternatives": ["canon", "tower", "defense", "shoot"]
+      "alternatives": ["canon", "tower", "defense", "shoot"],
+      "image": "https://www.noff.gg/clash-royale/res/img/cards/cannon.webp"
     },
     {
       "name": "Tombstone",
       "type": "building",
-      "alternatives": ["tomb", "grave", "skeleton spawner"]
+      "alternatives": ["tomb", "grave", "skeleton spawner", "bones"],
+      "image": "https://www.noff.gg/clash-royale/res/img/cards/tombstone.webp"
     },
     {
       "name": "Arrows",
       "type": "spell",
-      "alternatives": ["arrow", "blue arrows", "projectiles"]
+      "alternatives": ["arrow", "blue arrows", "projectiles"],
+      "image": "https://www.noff.gg/clash-royale/res/img/cards/arrows.webp"
     },
     {
       "name": "Royal Delivery",
       "type": "spell",
-      "alternatives": ["delivery", "recruit drop", "parachute"]
+      "alternatives": ["delivery", "royal", "recruit drop", "parachute"],
+      "image": "https://www.noff.gg/clash-royale/res/img/cards/royal_delivery.webp"
     },
     {
       "name": "Earthquake",
       "type": "spell",
-      "alternatives": ["quake", "earth", "ground shake", "building damage"]
+      "alternatives": ["quake", "earth", "ground shake", "building damage"],
+      "image": "https://www.noff.gg/clash-royale/res/img/cards/earthquake.webp"
     },
     {
       "name": "Goblin Barrel",
       "type": "spell",
-      "alternatives": ["barrel", "gob barrel", "throw barrel"]
+      "alternatives": ["barrel", "goblin", "gob barrel", "throw barrel"],
+      "image": "https://www.noff.gg/clash-royale/res/img/cards/goblin_barrel.webp"
     },
     {
       "name": "Tornado",
       "type": "spell",
-      "alternatives": ["nado", "tornado", "spin", "pull"]
+      "alternatives": ["nado", "tornado", "spin", "pull"],
+      "image": "https://www.noff.gg/clash-royale/res/img/cards/tornado.webp"
     },
     {
       "name": "Clone",
       "type": "spell",
-      "alternatives": ["copy", "duplicate", "double"]
+      "alternatives": ["copy", "duplicate", "mirror", "double"],
+      "image": "https://www.noff.gg/clash-royale/res/img/cards/clone.webp"
     },
     {
       "name": "Void",
       "type": "spell",
-      "alternatives": ["void", "black hole", "suck", "pull"]
+      "alternatives": ["void", "black hole", "suck", "pull"],
+      "image": "https://www.noff.gg/clash-royale/res/img/cards/void.webp"
     },
     {
       "name": "Vines",
       "type": "spell",
-      "alternatives": ["vine", "plant", "green", "roots"]
+      "alternatives": ["vine", "plant", "green", "roots"],
+      "image": "https://www.noff.gg/clash-royale/res/img/cards/vines.webp"
     }
   ],
   "4": [
@@ -260,380 +310,454 @@
       "alternatives": [
         "skeleton dragon",
         "bone dragon",
-        "skelly dragon"
-      ]
+        "skelly dragon",
+        "flying bones"
+      ],
+      "image": "https://www.noff.gg/clash-royale/res/img/cards/skeleton_dragons.webp"
     },
     {
       "name": "Valkyrie",
       "type": "troop",
-      "alternatives": ["valk", "valkyrie", "spin", "red hair"]
+      "alternatives": ["valk", "valkyrie", "spin", "red hair"],
+      "image": "https://www.noff.gg/clash-royale/res/img/cards/valkyrie.webp"
     },
     {
       "name": "Musketeer",
       "type": "troop",
-      "alternatives": ["muskee", "gun", "rifle", "blue dress"]
+      "alternatives": ["musket", "gun", "rifle", "blue dress"],
+      "image": "https://www.noff.gg/clash-royale/res/img/cards/musketeer.webp"
     },
     {
       "name": "Mini P.E.K.K.A",
       "type": "troop",
-      "alternatives": ["mini pekka", "pekka", "robot", "mini"]
+      "alternatives": ["mini pekka", "pekka", "robot", "sword robot", "mini"],
+      "image": "https://www.noff.gg/clash-royale/res/img/cards/mini_pekka.webp"
     },
     {
       "name": "Hog Rider",
       "type": "troop",
-      "alternatives": ["rider", "hammer guy"]
+      "alternatives": ["hog", "rider", "pig", "hammer guy"],
+      "image": "https://www.noff.gg/clash-royale/res/img/cards/hog_rider.webp"
     },
     {
       "name": "Battle Ram",
       "type": "troop",
-      "alternatives": ["ram", "battle", "charge"]
+      "alternatives": ["ram", "battle", "charge", "barbarians"],
+      "image": "https://www.noff.gg/clash-royale/res/img/cards/battle_ram.webp"
     },
     {
       "name": "Zappies",
       "type": "troop",
-      "alternatives": ["zappy", "electric", "stun"]
+      "alternatives": ["zappy", "electric", "stun", "blue guys"],
+      "image": "https://www.noff.gg/clash-royale/res/img/cards/zappies.webp"
     },
     {
       "name": "Flying Machine",
       "type": "troop",
-      "alternatives": ["machine", "flying", "helicopter", "copter"]
+      "alternatives": ["machine", "flying", "helicopter", "copter"],
+      "image": "https://www.noff.gg/clash-royale/res/img/cards/flying_machine.webp"
     },
     {
       "name": "Battle Healer",
       "type": "troop",
-      "alternatives": ["healer", "heal", "support"]
+      "alternatives": ["healer", "battle", "heal", "support"],
+      "image": "https://www.noff.gg/clash-royale/res/img/cards/battle_healer.webp"
     },
     {
       "name": "Goblin Demolisher",
       "type": "troop",
-      "alternatives": ["demolisher", "siege"]
+      "alternatives": ["demolisher", "goblin", "cannon", "siege"],
+      "image": "https://www.noff.gg/clash-royale/res/img/cards/goblin_demolisher.webp"
     },
     {
       "name": "Baby Dragon",
       "type": "troop",
-      "alternatives": ["baby", "dragon", "fire"]
+      "alternatives": ["baby", "dragon", "flying", "fire"],
+      "image": "https://www.noff.gg/clash-royale/res/img/cards/baby_dragon.webp"
     },
     {
       "name": "Dark Prince",
       "type": "troop",
-      "alternatives": ["dark", "shield"]
+      "alternatives": ["dark", "prince", "charge", "shield"],
+      "image": "https://www.noff.gg/clash-royale/res/img/cards/dark_prince.webp"
     },
     {
       "name": "Hunter",
       "type": "troop",
-      "alternatives": ["hunt", "shotgun", "spread", "beard"]
+      "alternatives": ["hunt", "shotgun", "spread", "beard"],
+      "image": "https://www.noff.gg/clash-royale/res/img/cards/hunter.webp"
     },
     {
       "name": "Rune Giant",
       "type": "troop",
-      "alternatives": ["rune"]
+      "alternatives": ["rune", "giant", "magic", "purple"],
+      "image": "https://www.noff.gg/clash-royale/res/img/cards/rune_giant.webp"
     },
     {
       "name": "Lumberjack",
       "type": "troop",
-      "alternatives": ["lumber", "jack", "axe"]
+      "alternatives": ["lumber", "jack", "axe", "rage", "wood"],
+      "image": "https://www.noff.gg/clash-royale/res/img/cards/lumberjack.webp"
     },
     {
       "name": "Inferno Dragon",
       "type": "troop",
-      "alternatives": ["dragon", "beam", "melt"]
+      "alternatives": ["inferno", "dragon", "beam", "melt"],
+      "image": "https://www.noff.gg/clash-royale/res/img/cards/inferno_dragon.webp"
     },
     {
       "name": "Electro Wizard",
       "type": "troop",
-      "alternatives": ["ewiz", "electro", "wizard", "electric", "stun"]
+      "alternatives": ["ewiz", "electro", "wizard", "electric", "stun"],
+      "image": "https://www.noff.gg/clash-royale/res/img/cards/electro_wizard.webp"
     },
     {
       "name": "Night Witch",
       "type": "troop",
-      "alternatives": []
+      "alternatives": ["witch", "night", "bats", "dark"],
+      "image": "https://www.noff.gg/clash-royale/res/img/cards/night_witch.webp"
     },
     {
       "name": "Magic Archer",
       "type": "troop",
-      "alternatives": ["magic", "archer", "penetrate", "long range"]
+      "alternatives": ["magic", "archer", "penetrate", "long range"],
+      "image": "https://www.noff.gg/clash-royale/res/img/cards/magic_archer.webp"
     },
     {
       "name": "Mother Witch",
       "type": "troop",
-      "alternatives": ["mother"]
+      "alternatives": ["mother", "witch", "curse", "pigs"],
+      "image": "https://www.noff.gg/clash-royale/res/img/cards/mother_witch.webp"
     },
     {
       "name": "Phoenix",
       "type": "troop",
-      "alternatives": ["phoenix", "bird", "fire bird", "rebirth"]
+      "alternatives": ["phoenix", "bird", "fire bird", "rebirth"],
+      "image": "https://www.noff.gg/clash-royale/res/img/cards/phoenix.webp"
     },
     {
       "name": "Mighty Miner",
       "type": "troop",
-      "alternatives": ["mighty", "miner", "drill", "underground"]
+      "alternatives": ["mighty", "miner", "drill", "underground"],
+      "image": "https://www.noff.gg/clash-royale/res/img/cards/mighty_miner.webp"
     },
     {
       "name": "Skeleton King",
       "type": "troop",
-      "alternatives": ["king", "skeleton", "skelly king", "bone king"]
+      "alternatives": ["king", "skeleton", "skelly king", "bone king"],
+      "image": "https://www.noff.gg/clash-royale/res/img/cards/skeleton_king.webp"
     },
     {
       "name": "Golden Knight",
       "type": "troop",
-      "alternatives": ["golden", "knight", "gold", "dash"]
+      "alternatives": ["golden", "knight", "gold", "dash"],
+      "image": "https://www.noff.gg/clash-royale/res/img/cards/golden_knight.webp"
     },
     {
       "name": "Mortar",
       "type": "building",
-      "alternatives": ["mortar", "siege", "long range", "cannon"]
+      "alternatives": ["mortar", "siege", "long range", "cannon"],
+      "image": "https://www.noff.gg/clash-royale/res/img/cards/mortar.webp"
     },
     {
       "name": "Tesla",
       "type": "building",
-      "alternatives": ["tesla", "electric", "hidden", "pop up"]
+      "alternatives": ["tesla", "electric", "hidden", "pop up"],
+      "image": "https://www.noff.gg/clash-royale/res/img/cards/tesla.webp"
     },
     {
       "name": "Bomb Tower",
       "type": "building",
-      "alternatives": ["bomb", "tower", "explosive", "death damage"]
+      "alternatives": ["bomb", "tower", "explosive", "death damage"],
+      "image": "https://www.noff.gg/clash-royale/res/img/cards/bomb_tower.webp"
     },
     {
       "name": "Furnace",
       "type": "building",
-      "alternatives": ["furnace", "fire spirits", "spawner"]
+      "alternatives": ["furnace", "fire spirits", "spawner"],
+      "image": "https://www.noff.gg/clash-royale/res/img/cards/furnace.webp"
     },
     {
       "name": "Goblin Cage",
       "type": "building",
-      "alternatives": ["cage", "brawler", "prison"]
+      "alternatives": ["cage", "goblin", "brawler", "prison"],
+      "image": "https://www.noff.gg/clash-royale/res/img/cards/goblin_cage.webp"
     },
     {
       "name": "Goblin Drill",
       "type": "building",
-      "alternatives": ["drill", "underground", "spawn"]
+      "alternatives": ["drill", "goblin", "underground", "spawn"],
+      "image": "https://www.noff.gg/clash-royale/res/img/cards/goblin_drill.webp"
     },
     {
       "name": "Fireball",
       "type": "spell",
-      "alternatives": ["fire", "ball", "explosion", "damage"]
+      "alternatives": ["fire", "ball", "explosion", "damage"],
+      "image": "https://www.noff.gg/clash-royale/res/img/cards/fireball.webp"
     },
     {
       "name": "Freeze",
       "type": "spell",
-      "alternatives": ["ice", "stop", "frozen", "pause"]
+      "alternatives": ["ice", "stop", "frozen", "pause"],
+      "image": "https://www.noff.gg/clash-royale/res/img/cards/freeze.webp"
     },
     {
       "name": "Poison",
       "type": "spell",
-      "alternatives": ["poison", "green", "damage over time", "dot"]
+      "alternatives": ["poison", "green", "damage over time", "dot"],
+      "image": "https://www.noff.gg/clash-royale/res/img/cards/poison.webp"
     }
   ],
   "5": [
     {
       "name": "Barbarians",
       "type": "troop",
-      "alternatives": ["barbs", "barbarian", "yellow hair", "swords"]
+      "alternatives": ["barbs", "barbarian", "yellow hair", "swords"],
+      "image": "https://www.noff.gg/clash-royale/res/img/cards/barbarians.webp"
     },
     {
       "name": "Minion Horde",
       "type": "troop",
-      "alternatives": ["horde", "swarm", "flying swarm"]
+      "alternatives": ["horde", "minions", "swarm", "flying swarm"],
+      "image": "https://www.noff.gg/clash-royale/res/img/cards/minion_horde.webp"
     },
     {
       "name": "Rascals",
       "type": "troop",
-      "alternatives": ["rascal", "boy", "girls", "slingshot"]
+      "alternatives": ["rascal", "boy", "girls", "slingshot"],
+      "image": "https://www.noff.gg/clash-royale/res/img/cards/rascals.webp"
     },
     {
       "name": "Giant",
       "type": "troop",
-      "alternatives": ["big guy", "tank", "orange", "huge"]
+      "alternatives": ["big guy", "tank", "orange", "huge"],
+      "image": "https://www.noff.gg/clash-royale/res/img/cards/giant.webp"
     },
     {
       "name": "Wizard",
       "type": "troop",
-      "alternatives": ["wiz", "fireball", "beard"]
+      "alternatives": ["wiz", "magic", "fireball", "beard"],
+      "image": "https://www.noff.gg/clash-royale/res/img/cards/wizard.webp"
     },
     {
       "name": "Royal Hogs",
       "type": "troop",
-      "alternatives": ["hogs", "royal", "pigs", "hammers"]
+      "alternatives": ["hogs", "royal", "pigs", "hammers"],
+      "image": "https://www.noff.gg/clash-royale/res/img/cards/royal_hogs.webp"
     },
     {
       "name": "Balloon",
       "type": "troop",
-      "alternatives": ["loon", "death damage"]
+      "alternatives": ["loon", "bomb", "flying", "death damage"],
+      "image": "https://www.noff.gg/clash-royale/res/img/cards/balloon.webp"
     },
     {
       "name": "Witch",
       "type": "troop",
-      "alternatives": ["witch", "skeletons", "spawner", "purple"]
+      "alternatives": ["witch", "skeletons", "spawner", "purple"],
+      "image": "https://www.noff.gg/clash-royale/res/img/cards/witch.webp"
     },
     {
       "name": "Prince",
       "type": "troop",
-      "alternatives": ["prince", "charge", "lance", "horse"]
+      "alternatives": ["prince", "charge", "lance", "horse"],
+      "image": "https://www.noff.gg/clash-royale/res/img/cards/prince.webp"
     },
     {
       "name": "Bowler",
       "type": "troop",
-      "alternatives": ["bowl", "rock", "purple guy", "throw"]
+      "alternatives": ["bowl", "rock", "purple guy", "throw"],
+      "image": "https://www.noff.gg/clash-royale/res/img/cards/bowler.webp"
     },
     {
       "name": "Executioner",
       "type": "troop",
-      "alternatives": ["exe", "axe", "hooded", "throw"]
+      "alternatives": ["exe", "axe", "hooded", "throw"],
+      "image": "https://www.noff.gg/clash-royale/res/img/cards/executioner.webp"
     },
     {
       "name": "Cannon Cart",
       "type": "troop",
-      "alternatives": ["cart", "cannon", "wheels", "mobile"]
+      "alternatives": ["cart", "cannon", "wheels", "mobile"],
+      "image": "https://www.noff.gg/clash-royale/res/img/cards/cannon_cart.webp"
     },
     {
       "name": "Electro Dragon",
       "type": "troop",
-      "alternatives": ["edragon", "electric dragon", "chain", "lightning"]
+      "alternatives": ["edragon", "electric dragon", "chain", "lightning"],
+      "image": "https://www.noff.gg/clash-royale/res/img/cards/electro_dragon.webp"
     },
     {
       "name": "Ram Rider",
       "type": "troop",
-      "alternatives": ["ram", "rider", "snare", "slow"]
+      "alternatives": ["ram", "rider", "snare", "slow"],
+      "image": "https://www.noff.gg/clash-royale/res/img/cards/ram_rider.webp"
     },
     {
       "name": "Archer Queen",
       "type": "troop",
-      "alternatives": ["queen", "archer", "aq", "bow"]
+      "alternatives": ["queen", "archer", "aq", "bow"],
+      "image": "https://www.noff.gg/clash-royale/res/img/cards/archer_queen.webp"
     },
     {
       "name": "Monk",
       "type": "troop",
-      "alternatives": ["monk", "deflect", "martial arts", "bald"]
+      "alternatives": ["monk", "deflect", "martial arts", "bald"],
+      "image": "https://www.noff.gg/clash-royale/res/img/cards/monk.webp"
     },
     {
       "name": "Goblinstein",
       "type": "troop",
-      "alternatives": ["goblinstein", "frankenstein", "monster", "electric"]
+      "alternatives": ["goblinstein", "frankenstein", "monster", "electric"],
+      "image": "https://www.noff.gg/clash-royale/res/img/cards/goblinstein.webp"
     },
     {
       "name": "Goblin Hut",
       "type": "building",
-      "alternatives": ["hut", "spawner", "spears"]
+      "alternatives": ["hut", "goblin", "spawner", "spears"],
+      "image": "https://www.noff.gg/clash-royale/res/img/cards/goblin_hut.webp"
     },
     {
       "name": "Inferno Tower",
       "type": "building",
-      "alternatives": ["inferno", "tower", "it", "beam", "melt"]
+      "alternatives": ["inferno", "tower", "it", "beam", "melt"],
+      "image": "https://www.noff.gg/clash-royale/res/img/cards/inferno_tower.webp"
     },
     {
       "name": "Graveyard",
       "type": "spell",
-      "alternatives": ["gy", "grave", "skeletons", "spawn"]
+      "alternatives": ["gy", "grave", "skeletons", "spawn"],
+      "image": "https://www.noff.gg/clash-royale/res/img/cards/graveyard.webp"
     }
   ],
   "6": [
     {
       "name": "Royal Giant",
       "type": "troop",
-      "alternatives": ["rg", "royal", "giant", "cannon", "mustache"]
+      "alternatives": ["rg", "royal", "giant", "cannon", "mustache"],
+      "image": "https://www.noff.gg/clash-royale/res/img/cards/royal_giant.webp"
     },
     {
       "name": "Elite Barbarians",
       "type": "troop",
-      "alternatives": ["ebarbs", "elite", "barbs", "fast", "rage"]
+      "alternatives": ["ebarbs", "elite", "barbs", "fast", "rage"],
+      "image": "https://www.noff.gg/clash-royale/res/img/cards/elite_barbarians.webp"
     },
     {
       "name": "Giant Skeleton",
       "type": "troop",
-      "alternatives": ["giant skeleton", "gs", "bomb", "death damage"]
+      "alternatives": ["giant skeleton", "gs", "bomb", "death damage"],
+      "image": "https://www.noff.gg/clash-royale/res/img/cards/giant_skeleton.webp"
     },
     {
       "name": "Goblin Giant",
       "type": "troop",
-      "alternatives": ["goblin giant", "gg", "big goblin"]
+      "alternatives": ["goblin giant", "gg", "spear goblins", "big goblin"],
+      "image": "https://www.noff.gg/clash-royale/res/img/cards/goblin_giant.webp"
     },
     {
       "name": "Sparky",
       "type": "troop",
-      "alternatives": ["spark", "robot", "charge", "electric"]
+      "alternatives": ["spark", "robot", "charge", "electric"],
+      "image": "https://www.noff.gg/clash-royale/res/img/cards/sparky.webp"
     },
     {
       "name": "Spirit Empress",
       "type": "troop",
-      "alternatives": ["empress", "spirit", "teleport"]
+      "alternatives": ["empress", "spirit", "teleport", "magic"],
+      "image": "https://www.noff.gg/clash-royale/res/img/cards/spirit_empress.webp"
     },
     {
       "name": "Boss Bandit",
       "type": "troop",
-      "alternatives": ["boss", "bandit", "dash", "leader"]
+      "alternatives": ["boss", "bandit", "dash", "leader"],
+      "image": "https://www.noff.gg/clash-royale/res/img/cards/boss_bandit.webp"
     },
     {
       "name": "Elixir Collector",
       "type": "building",
-      "alternatives": ["collector", "elixir", "pump", "ec"]
+      "alternatives": ["collector", "elixir", "pump", "ec"],
+      "image": "https://www.noff.gg/clash-royale/res/img/cards/elixir_collector.webp"
     },
     {
       "name": "X-Bow",
       "type": "building",
-      "alternatives": ["xbow", "crossbow", "siege", "long range"]
+      "alternatives": ["xbow", "crossbow", "siege", "long range"],
+      "image": "https://www.noff.gg/clash-royale/res/img/cards/x_bow.webp"
     },
     {
       "name": "Rocket",
       "type": "spell",
-      "alternatives": ["rocket", "missile", "high damage", "tower"]
+      "alternatives": ["rocket", "missile", "high damage", "tower"],
+      "image": "https://www.noff.gg/clash-royale/res/img/cards/rocket.webp"
     },
     {
       "name": "Lightning",
       "type": "spell",
-      "alternatives": ["lightning", "bolt", "electric", "three targets"]
+      "alternatives": ["lightning", "bolt", "electric", "three targets"],
+      "image": "https://www.noff.gg/clash-royale/res/img/cards/lightning.webp"
     },
     {
       "name": "Barbarian Hut",
       "type": "building",
-      "alternatives": ["barb hut", "hut", "barbarian", "spawner"]
+      "alternatives": ["barb hut", "hut", "barbarian", "spawner"],
+      "image": "https://www.noff.gg/clash-royale/res/img/cards/barbarian_hut.webp"
     }
   ],
   "7": [
     {
       "name": "Royal Recruits",
       "type": "troop",
-      "alternatives": ["recruits", "royal", "shields", "six guys"]
+      "alternatives": ["recruits", "royal", "shields", "six guys"],
+      "image": "https://www.noff.gg/clash-royale/res/img/cards/royal_recruits.webp"
     },
     {
       "name": "P.E.K.K.A",
       "type": "troop",
-      "alternatives": ["pekka", "robot", "sword", "armor", "big robot"]
+      "alternatives": ["pekka", "robot", "sword", "armor", "big robot"],
+      "image": "https://www.noff.gg/clash-royale/res/img/cards/pekka.webp"
     },
     {
       "name": "Electro Giant",
       "type": "troop",
-      "alternatives": ["egiant", "electro", "giant", "electric", "reflect"]
+      "alternatives": ["egiant", "electro", "giant", "electric", "reflect"],
+      "image": "https://www.noff.gg/clash-royale/res/img/cards/electro_giant.webp"
     },
     {
       "name": "Lava Hound",
       "type": "troop",
-      "alternatives": ["lava", "hound", "dog", "pups", "flying tank"]
+      "alternatives": ["lava", "hound", "dog", "pups", "flying tank"],
+      "image": "https://www.noff.gg/clash-royale/res/img/cards/lava_hound.webp"
     },
     {
       "name": "Mega Knight",
       "type": "troop",
-      "alternatives": ["mk", "mega", "knight", "jump", "splash"]
+      "alternatives": ["mk", "mega", "knight", "jump", "splash"],
+      "image": "https://www.noff.gg/clash-royale/res/img/cards/mega_knight.webp"
     }
   ],
   "8": [
     {
       "name": "Golem",
       "type": "troop",
-      "alternatives": ["golem", "rock", "stone", "golemites", "tank"]
+      "alternatives": ["golem", "rock", "stone", "golemites", "tank"],
+      "image": "https://www.noff.gg/clash-royale/res/img/cards/golem.webp"
     }
   ],
   "9": [
     {
       "name": "Three Musketeers",
       "type": "troop",
-      "alternatives": ["3m", "three", "musketeers", "three musket", "muskets"]
+      "alternatives": ["3m", "three", "musketeers", "three musket", "muskets"],
+      "image": "https://www.noff.gg/clash-royale/res/img/cards/three_musketeers.webp"
     }
   ],
   "0": [
     {
       "name": "Mirror",
       "type": "spell",
-      "alternatives": ["mirror", "copy", "duplicate", "same card"]
+      "alternatives": ["mirror", "copy", "duplicate", "same card"],
+      "image": "https://www.noff.gg/clash-royale/res/img/cards/mirror.webp"
     }
   ]
 }
